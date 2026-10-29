@@ -90,7 +90,7 @@ git merge docs-update
 git log --oneline --graph --decorate --all
 
 9. GITHUB AUTHENTICATION AND PUSH
-git remote add origin https://github.com/ArghyadiptaGoswami4259/devops-lab1.git
+git remote add origin https://github.com/ArghyadiptaGoswami4259/DEV-OPS.git
 git remote -v
 sudo apt install gh -y
 gh auth login
@@ -147,4 +147,4 @@ Export the full console logs through the authenticated Jenkins browser.
 See docs/evidence/logs/README.md.
 Stage only the intended documentation/evidence files, review, commit and push.
 
-Repository: https://github.com/ArghyadiptaGoswami4259/devops-lab1
+Repository: https://github.com/ArghyadiptaGoswami4259/DEV-OPS

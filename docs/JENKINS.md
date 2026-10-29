@@ -12,7 +12,7 @@ These are the configuration values used in the guided setup. Attach a screenshot
 | Job type | Pipeline |
 | Definition | Pipeline script from SCM |
 | SCM | Git |
-| Repository URL | https://github.com/ArghyadiptaGoswami4259/devops-lab1.git |
+| Repository URL | https://github.com/ArghyadiptaGoswami4259/DEV-OPS.git |
 | Credentials | None for the current public repository |
 | Branch specifier | */main |
 | Script path | Jenkinsfile |

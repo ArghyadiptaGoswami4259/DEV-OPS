@@ -41,7 +41,7 @@ The repository's `.gitignore` excludes the virtual environment, Python caches an
 ## GitHub remote and authentication
 
 ```bash
-git remote add origin https://github.com/ArghyadiptaGoswami4259/devops-lab1.git
+git remote add origin https://github.com/ArghyadiptaGoswami4259/DEV-OPS.git
 git remote -v
 git push -u origin main
 ```
@@ -54,23 +54,23 @@ The local `gh` authentication belongs to the developer's Linux user. It is separ
 
 | Order | Commit | Purpose |
 |---|---|---|
-| 1 | [2719c1e](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/2719c1e) | Initial Python application setup |
-| 2 | [1235e08](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/1235e08) | Add unit tests with pytest |
-| 3 | [548ad41](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/548ad41) | Document CI/CD pipeline stages |
-| 4 | [8b7f655](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/8b7f655) | Add Jenkins CI/CD pipeline |
-| 5 | [c02a681](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/c02a681) | Test automated Jenkins trigger |
-| 6 | [a5b3788](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/a5b3788) | Add Lab 1 command documentation |
-| 7 | [5071511](https://github.com/ArghyadiptaGoswami4259/devops-lab1/commit/5071511) | Add Lab 1 CI/CD workflow report |
+| 1 | [04a4b00](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/04a4b00e14eacf823b2cf8974ef4a22d5bd79237) | Initial Python application setup |
+| 2 | [0bbd0f0](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/0bbd0f0a771da033480576df6384cef02da0f3e8) | Add unit tests with pytest |
+| 3 | [3fa8f1b](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/3fa8f1b32c33c9e86fe7c3b60900b54e953b1bc4) | Document CI/CD pipeline stages |
+| 4 | [ed79388](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/ed79388f8fca937a31c45ea88d3a2dfecc6d13f0) | Add Jenkins CI/CD pipeline with Build, Test and Deploy stages |
+| 5 | [288b24a](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/288b24af72fcc646e3a61017cee0a9d0fa9fb281) | Add Lab 1 command documentation |
+| 6 | [49f7e9c](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/49f7e9cabcc004a4e3cf7f4c03205b99ec436516) | Add Lab 1 CI/CD workflow report |
+| 7 | [5fc49ac](https://github.com/ArghyadiptaGoswami4259/DEV-OPS/commit/5fc49acf2eddbdbb7267b6f3ad5bcf71cd4c696f) | Add complete Lab 1 documentation, evidence gallery and screenshots |
 
-The first three short hashes are also visible in the local history screenshots. The review baseline is commit `50715110d0a0c622566ec0175ddf0d73c4560bd6`. Later documentation commits should be added normally, not used to replace this history.
+The review baseline is commit `5fc49acf2eddbdbb7267b6f3ad5bcf71cd4c696f`. Later documentation commits should be added normally, not used to replace this history.
 
-## Why the merge graph is linear
+## Merge history
 
-The feature merge output explicitly says `Fast-forward`. This records a valid merge by advancing `main` to the feature branch's tip. It does not produce a two-parent merge commit. Do not fabricate a non-linear graph or redo the exercise simply to make the history look more complex.
+The `feature/pipeline-docs` branch was merged into `main` with a two-parent merge commit (`767f898`), keeping the branch work visible in the history graph before the branch was deleted locally.
 
 ## Local branches versus GitHub branches
 
-The captured local history includes `feature-tests` and `docs-update`. The GitHub branch listing at the review baseline contains only `main`, because `git push -u origin main` does not publish every local branch.
+The captured local history includes `feature/pipeline-docs`. The GitHub branch listing at the review baseline contains only `main`, because `git push -u origin main` does not publish every local branch.
 
 Publishing the already-existing feature branches is optional but makes them visible to a GitHub-only evaluator:
 

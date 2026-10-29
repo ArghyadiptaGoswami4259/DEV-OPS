@@ -3,7 +3,7 @@
 **Course:** DevOps and Automation Lab (ENSP461)  
 **Student:** Arghyadipta Goswami  
 **Roll No.:** 2301010192  
-**Repository:** https://github.com/ArghyadiptaGoswami4259/devops-lab1  
+**Repository:** https://github.com/ArghyadiptaGoswami4259/DEV-OPS  
 **Environment used:** Ubuntu in WSL2 on Windows  
 **Application language:** Python | **Pipeline syntax:** Declarative Jenkins Pipeline
 
@@ -123,7 +123,7 @@ Configure Jenkins to obtain source from the GitHub repository and run an automat
 
 ### Configuration
 
-The intended job is named `devops-lab1` and uses **Pipeline script from SCM**. Its SCM is Git, the repository is `https://github.com/ArghyadiptaGoswami4259/devops-lab1.git`, the branch specification is `*/main`, and the script path is `Jenkinsfile`. The repository is public, so its read-only checkout does not require the student's personal GitHub CLI login to be copied to the Jenkins service account.
+The intended job is named `devops-lab1` and uses **Pipeline script from SCM**. Its SCM is Git, the repository is `https://github.com/ArghyadiptaGoswami4259/DEV-OPS.git`, the branch specification is `*/main`, and the script path is `Jenkinsfile`. The repository is public, so its read-only checkout does not require the student's personal GitHub CLI login to be copied to the Jenkins service account.
 
 The local setup and the Jenkins workspace are separate directories:
 
