@@ -90,5 +90,3 @@ scripts/               Optional real-output capture helper
 ```
 
 The original task descriptions and general lab instructions are included under [docs/requirements](docs/requirements). The observed environment and historical evidence are documented as captured, not presented as a live service-status check.
-
-<!-- Pipeline stages documented on feature branch: Build -> Test -> Deploy -->
